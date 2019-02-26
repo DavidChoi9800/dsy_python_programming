@@ -57,6 +57,8 @@ It's good idea to commit and push to your personal fork often, even when you're 
 
 2. If you try to push and get "Repository does not exist" this probably means that you cloned from the Institute repo rather than your fork. Make sure you did step 1 and created a fork. Then run this command to push: `git push https://github.com/<your username>/dsy_python_programming master`
 
+### [How to sync your Git Fork to the Original Repo](https://digitaldrummerj.me/git-syncing-fork-with-original-repo/)
+
 ### Getting help
 
 Feel free to contact us directly if you have any questions!
@@ -82,29 +84,28 @@ This document covers much of what we'll teach you, but you are each other's grea
 | --- | --- | --- |
 | 1 |  | [Python Programming Intro](#month-1-python-programming-intro) |
 | 2 |  | [More Python](#month-2-more-python) |
-| 3 |  | [Math Programming with Numpy](#month-3-math-programming-with-numpy) |
+| 3 |  | [Math and Scientific Programming with NumPy, SciPy, SymPy](#month-3-math-programming-with-numpy) |
 | 4 |  | [Data Analysis with Pandas](#month-4-data-analysis-with-pandas) |
-| 5 |  | [Visualizaton](#month-5-visualization) |
-| 6 |  | [Capstone Project](#week-6-capstone-project) |
+| 5 |  | [Visualizaton and Basic Statisticsll](#month-5-visualization) |
 
 --
 
 ### Month 1: Python Programming Intro
 | Week | Readings | Repo | Instructor | Slides |
 |:--:|:--:|:--|:--:|:--:|
-| Week 1 | [Development Workflow][1]<br><br>[Python Installation][1.1] | [Assessment 1][2]<br><br>[Python Intro 1][3] | Alex Seong | [git-intro][3.1]<br><br>[slides][3.2] |
+| Week 1 | [Development Workflow][1]<br>[Python Installation][1.1]<br>[git Installation][1.2] | [Assessment 1][2]<br><br>[Python Intro 1][3] | Alex Seong | [git-intro][3.1]<br><br>[slides][3.2] |
 | Week 2 | [Python Syntax 1][4.1] | [Python Intro 2][4] | Alex Seong | [slide1][4.2]<br>[slide2][4.3]<br>[slide3][4.4]|
-| Week 3 | <ul><li>[Intro to IPython Notebook][6]</li><li>[Python Syntax 2][6.1]</li></ul>| [Python Intro 3][6.2] | Alex Seong | [slide1][6.3]<br>[slide2][6.4]<br>[slide3][6.5] |
-| Week 4 | [Python Syntax 3][6.1] | [Python Intro 4][7] | Alex Seong | [slide1][7.1]<br>[slide2][7.2]<br>[slide3][7.3]  |
+| Week 3 | [Python Syntax 1][4.1] | [Python Intro 2][4]  | Alex Seong | [slide1][4.2]<br>[slide2][4.3]<br>[slide3][4.4]|
+| Week 4 | [Python Syntax 1][4.1] | [Python Intro 2][4]  | Alex Seong | [slide1][4.2]<br>[slide2][4.3]<br>[slide3][4.4]|
 
 --
 
 ### Month 2: More Python 
 | Week | Readings | Repo | Instructor | Slides |
 |:--:|:--:|:--|:--:|:--:|
-| Week 1 | <ul><li>[Learn Python the Hard Way (ex 40-42)][5]</li><li>Extra: Learn Python the Hard Way ex 43</ul> | [OOP][5.2]<br>[Python Intro 5][5.3] | Alex Seong | [slides][5.1]  |
-| Week 2 | Prealgebra with Python | Assessment 2<br>[Prealgebra][26]  | Alex Seong | slides |
-| Week 3 | <ul><li>Prealgebra with Python</li><li>Algebra1 with Python</li></ul> | [Prealgebra][26]<br>[Algebra1][26.1]  | Alex Seong | slides<br><br>slides |
+| Week 1 | <ul><li>[Intro to IPython Notebook][6]</li><li>[Python Syntax 2][6.1]</li></ul>| [Assessment 2][2.1]<br><br>[Python Intro 3][6.2] | Alex Seong | [slide1][6.3]<br>[slide2][6.4]<br>[slide3][6.5] |
+| Week 2 | [Python Syntax 3][6.1] | [Python Intro 4][7] | Alex Seong | [slide1][7.1]<br>[slide2][7.2]<br>[slide3][7.3]  |
+| Week 3 | <ul><li>[Learn Python the Hard Way (ex 40-42)][5]</li><li>Extra: Learn Python the Hard Way ex 43</ul> | [OOP][5.2]| Alex Seong | [python obects][5.1]<br>[OOP lecture][5.3]  |
 | Week 4 | <ul><li>Prealgebra with Python</li><li>Algebra1 with Python</li><li>Algebra2 with Python</li></ul> | [Prealgebra][26]<br>[Algebra1][26.1]<br>[Algebra2][26.2]  | Alex Seong | slides<br>slides<br>slides |
 
 
@@ -135,18 +136,8 @@ This document covers much of what we'll teach you, but you are each other's grea
 |:--:|:--:|:--|:--:|:--:|
 | Week 1 | More plotting | Seaborn and Plotly | Alex Seong | slides |
 | Week 2 | Basic Linear Algebra and Numpy | Linear Algebra and EDA | Alex Seong | slides |
-| Week 3 | Sampling and Estimation | Sampling and Estimation | Alex Seong | slides |
-| Week 4 | Hypothesis Testing | A/B Testing(or Linear Regression Intro)| Alex Seong | slides |
-
---
-
-### Month 6: Capstone Project
-| Week | Readings | Repo | Instructor | Slides |
-|:--:|:--:|:--|:--:|:--:|
-| Week 1 | Project Proposal| Web Scraping | Alex Seong | slides |
-| Week 2 | Project Proposal| Web Products(Flask) | Alex Seong | slides |
-| Week 3 | Project Review | Project Review | Alex Seong | slides |
-| Week 4 | Project Presentation | Web or PPT | Alex Seong | slides |
+| Week 3 | Sampling and Estimation<br><br> Capstone Project| Sampling and Estimation<br><br>Web Scraping | Alex Seong | slides |
+| Week 4 | Hypothesis Testing<br><br> Capstone Project | A/B Testing(or Linear Regression Intro)<br><br>Project Review| Alex Seong | slides |
 
 --
 
@@ -162,19 +153,6 @@ We will focus on a few canonical texts for the class and readings will be assign
 
 ## References
 
-### Data Analysis with Python
-
-* [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do): Some of the `pandas` methods have changed (always reference `pandas` [online documentation](http://pandas.pydata.org/)) but a solid book on data analysis in Python.
-
-
-### Numpy
-
-* [Official Numpy Tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial)
-* [scipy Lectures](https://scipy-lectures.github.io/intro/numpy/index.html)
-* [Crash Course in Python for Scientist](http://nbviewer.ipython.org/gist/rpmuller/5920182)
-* [Scientific Python Lectures](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-2-Numpy.ipynb)
-* [Numpy Broadcasting](http://wiki.scipy.org/EricsBroadcastingDoc)
-* [Pyton Bootcamp Lectures](http://nbviewer.ipython.org/github/profjsb/python-bootcamp/blob/master/Lectures/05_NumpyMatplotlib/IntroNumPy.ipynb)
 * [Prealgebra via Python Programming: First steps to perform large scale computational tasks in the Sciences and Engineerings](https://www.researchgate.net/publication/325473565_Prealgebra_via_Python_Programming_First_steps_to_perform_large_scale_computational_tasks_in_the_Sciences_and_Engineerings) 
 
 ### Scipy
@@ -185,14 +163,8 @@ We will focus on a few canonical texts for the class and readings will be assign
 
 * [Introduction to Machine Learning with sklearn](http://researchcomputing.github.io/meetup_spring_2014/python/sklearn.html)
 * [scikit-learn workshop](https://github.com/jakevdp/sklearn_pycon2014)
-* [Machine Learning Tutorial](https://github.com/amueller/tutorial_ml_gkbionics)
 * [Introduction to scikit-learn](http://nbviewer.ipython.org/github/tdhopper/Research-Triangle-Analysts--Intro-to-scikit-learn/blob/master/Intro%20to%20Scikit-Learn.ipynb)
-* [Data analysis with scikit-learn](http://sebastianraschka.com/Articles/2014_scikit_dataprocessing.html)
-* [Advanced Machine Learning with scikit-learn](https://us.pycon.org/2013/community/tutorials/23/)
 
-### Extra
-
-* [University of Colorado Computational Science workshops](http://researchcomputing.github.io/meetup_spring_2014/)
 
 <!-- ************************** References **************************************** -->
 
@@ -201,29 +173,31 @@ We will focus on a few canonical texts for the class and readings will be assign
 <!-- Month 1 -->
 [1]: notes/workflow.md
 [1.1]: notes/installation.md
+[1.2]: ./git.md
 [2]: https://github.com/alexseong/dsy_python_assessment-1
+[2.1]: https://github.com/alexseong/dsy_python_assessment-2
 [3]: https://github.com/alexseong/dsy_python_intro_1
 [3.1]: https://github.com/alexseong/dsy_python_intro_1/tree/master/lectures/intro-git.pdf
 [3.2]: https://github.com/alexseong/dsy_python_intro_1/tree/master/lectures/python_intro_1.pdf
 [4]: https://github.com/alexseong/dsy_python_intro_2
-[4.1]: notes/python_syntax
+[4.1]: notes/python_syntax.md
 [4.2]: https://github.com/alexseong/dsy_python_intro_2/tree/master/lectures/python_intro_2.1.pdf
 [4.3]: https://github.com/alexseong/dsy_python_intro_2/tree/master/lectures/python_intro_2.2.pdf
 [4.4]: https://github.com/alexseong/dsy_python_intro_2/tree/master/lectures/python_intro_2.3.pdf
 [5]: http://learnpythonthehardway.org/book/ex40.html
-[5.1]: https://github.com/alexseong/dsy_lectures/tree/master/OOP
+[5.1]: https://github.com/alexseong/dsy_oop/tree/master/lectures/python_intro_oop.pdf
 [5.2]: https://github.com/alexseong/dsy_oop
-[5.3]: https://github.com/alexseong/dsy_python_intro_3
+[5.3]: https://github.com/alexseong/dsy_oop/tree/master/lectures/oop_lecture
 [6]: http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/A%20quick%20tour%20of%20IPython%20Notebook.ipynb
-[6.1]: notes/python_syntax
+[6.1]: notes/python_syntax.md
 [6.2]: https://github.com/alexseong/dsy_python_intro_3
 [6.3]: https://github.com/alexseong/dsy_python_intro_3/tree/master/lectures/python_intro_3.1.pdf
 [6.4]: https://github.com/alexseong/dsy_python_intro_3/tree/master/lectures/python_intro_3.2.pdf
 [6.5]: https://github.com/alexseong/dsy_python_intro_3/tree/master/lectures/python_intro_3.3.pdf
 [7]: https://github.com/alexseong/dsy_python_intro_4
-[7.1]: https://github.com/alexseong/dsy_python_intro_3/tree/master/lectures/python_intro_4.1.pdf
-[7.2]: https://github.com/alexseong/dsy_python_intro_3/tree/master/lectures/python_intro_4.2.pdf
-[7.3]: https://github.com/alexseong/dsy_python_intro_3/tree/master/lectures/python_intro_4.3.pdf
+[7.1]: https://github.com/alexseong/dsy_python_intro_4/tree/master/lectures/python_intro_4.1.pdf
+[7.2]: https://github.com/alexseong/dsy_python_intro_4/tree/master/lectures/python_intro_4.2.pdf
+[7.3]: https://github.com/alexseong/dsy_python_intro_4/tree/master/lectures/python_intro_4.3.pdf
 [10]: http://sqlzoo.net/wiki/Main_Page
 [11]: http://www.postgresql.org/docs/7.4/static/tutorial-start.html
 [12]: http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/
